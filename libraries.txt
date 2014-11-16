@@ -1,0 +1,5 @@
+# external libraries
+import sys
+_root = 'C:/Users/Lucas/Documents/Python/Libraries'
+_externallib = [_root, _root + '/Arithmetic', _root + 'MathsFuncs', _root + 'pygraph', _root + 'ArduinoInterface', _root + 'SortingAlgorithms']
+sys.path += _externallib
